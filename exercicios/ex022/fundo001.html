@@ -6,19 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teste de Imagem de Fundo</title>
     <style>
-        
+        .quadrado {
+            border: 2px solid black;
+            width: 200px;
+            height: 200px;
+            display: inline-block;
+            opacity: 60%;
+        }
+
+        #q1 {
+            background-color: rgb(255, 43, 43);
+        }
+
+        #q2 {
+            background-image: linear-gradient(to bottom, rgb(255, 94, 0), yellow);
+        }
+
+        #q3 {
+            background-image: url('imagens/pattern001.png');
+        }
+
+        .quadrado:hover {
+            opacity: 100%;
+        }
     </style>
 
 </head>
 
 <body>
-    <div  class="quadrado">
+    <div  class="quadrado" id="q1">
 
     </div>
-    <div class="quadrado">
+    <div class="quadrado" id="q2">
 
     </div>
-    <div class="quadrado">
+    <div class="quadrado" id="q3">
 
     </div>
 </body>
