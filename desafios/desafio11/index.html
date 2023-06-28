@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Astronauta</title>
+    <style>
+        body {
+            height: 100vh;
+            margin: 0;
+            background-image: url('imagens/espaco.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center center;
+            position: relative;
+        }
+
+        img.astronauta {
+            width: 90vw;
+            max-width: 400px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        footer {
+            position: absolute;
+            bottom: 0;
+            background-color: white;
+            color: black;
+            width: 100vw;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        footer a {
+            text-decoration: none;
+            color: inherit;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <img src="imagens/astronauta.png" alt="astronauta" class="astronauta">
+    </main>
+
+    <footer>
+        <p>Desenvolvido por <a href="https://github.com/devgabrielbrito" target="_blank" rel="external">Gabriel Lima</a> para o <a href="https://www.youtube.com/@CursoemVideo" target="_blank" rel="external">CurdoemVideo</a></p>
+    </footer>
+</body>
+</html>
